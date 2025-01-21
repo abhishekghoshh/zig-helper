@@ -19,9 +19,6 @@ ENV MKDOCS_VERSION=1.6.1
 # Create a virtual environment
 RUN python3.13 -m venv /venv
 
-# Add the virtual environment's bin directory to PATH
-# ENV PATH="/venv/bin:$PATH"
-
 
 # Create the workspace directory
 RUN mkdir -p /home/abhishek/workspace/zig-helper
